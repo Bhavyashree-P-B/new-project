@@ -5,6 +5,8 @@ pull this repository
 To run this project,
     
     install node js (LTS)
+
+    npm install
     
     npm install -g angular-cli
 
