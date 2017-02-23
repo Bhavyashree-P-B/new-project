@@ -8,6 +8,6 @@ To run this project,
 
     npm install
     
-    npm install @angular/cli --save
+    npm install -g @angular/cli
 
     ng serve  (It will run in port 4200 by default)

@@ -5,9 +5,11 @@ import { HttpModule } from '@angular/http';
 import { routing, appRoutingProviders } from './app.routing';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { ListPageComponent } from './list-page/list-page.component';
-import { DetailsPageComponent } from './details-page/details-page.component';
+import { NavbarComponent } from './component/navbar/navbar.component';
+import { ListPageComponent } from './component/list-page/list-page.component';
+import { DetailsPageComponent } from './component/details-page/details-page.component';
+
+import {JustAddsServiceService} from './service/just-adds-service.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,7 @@ import { DetailsPageComponent } from './details-page/details-page.component';
     HttpModule,
     routing
   ],
-  providers: [appRoutingProviders],
+  providers: [appRoutingProviders,JustAddsServiceService],
   bootstrap: [AppComponent],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
