@@ -1,0 +1,17 @@
+/*
+$largeScreen: 1200px;
+$mediumScreen: 992px;
+$smallScreen: 768px;
+$extraSmallScreen: 767px;
+*/
+
+.product-detail .caption .price {
+    float: right !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .product-detail .caption .price {
+        float: left !important;
+        margin-top: 0px;
+    }
+}
