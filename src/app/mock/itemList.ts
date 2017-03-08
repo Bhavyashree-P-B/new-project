@@ -1,200 +1,226 @@
 import { listModel } from '../model/listModel';
 export var listData: listModel[] = [
     {
+        "Id": "H1",
         "name": 'hotel 1',
-        "type": "hotel",
+        "category": "hotel",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
-        "description": "hotel description 1"
+        "description": "hotel description 1",
+        "address":"dfdfdf"
     },
     {
+        "Id": "H2",
         "name": 'hotel 2',
-        "type": "hotel",
+        "category": "hotel",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "hotel description 2"
     },
     {
+        "Id": "H3",
         "name": 'hotel 3',
-        "type": "hotel",
+        "category": "hotel",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "hotel description 3"
     },
     {
+        "Id": "H4",
         "name": 'hotel 4',
-        "type": "hotel",
+        "category": "hotel",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "hotel description 4"
     },
     {
+        "Id": "H5",
         "name": 'hotel 5',
-        "type": "hotel",
+        "category": "hotel",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "hotel description 5"
     },
     {
+        "Id": "C1",
         "name": 'cinima 1',
-        "type": "cinima",
+        "category": "cinima",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
     },
     {
+        "Id": "C2",
         "name": 'cinima 2',
-        "type": "cinima",
+        "category": "cinima",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
     },
     {
+        "Id": "C3",
         "name": 'cinima 3',
-        "type": "cinima",
+        "category": "cinima",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
     },
     {
+        "Id": "C4",
         "name": 'cinima 4',
-        "type": "cinima",
+        "category": "cinima",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
     },
     {
+        "Id": "C5",
         "name": 'cinima 5',
-        "type": "cinima",
+        "category": "cinima",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
     },
     {
+        "Id": "F1",
         "name": 'flower 1',
-        "type": "flower",
+        "category": "flower",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
     },
     {
+        "Id": "F2",
         "name": 'flower 2',
-        "type": "flower",
+        "category": "flower",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
     },
     {
+        "Id": "F3",
         "name": 'flower 3',
-        "type": "flower",
+        "category": "flower",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
     },
     {
+        "Id": "F4",
         "name": 'flower 4',
-        "type": "flower",
+        "category": "flower",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
     },
     {
+        "Id": "F5",
         "name": 'flower 5',
-        "type": "flower",
+        "category": "flower",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
     },
     {
+        "Id": "D1",
         "name": 'doctor 1',
-        "type": "doctor",
+        "category": "doctor",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
     },
     {
+        "Id": "D2",
         "name": 'doctor 2',
-        "type": "doctor",
+        "category": "doctor",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
     },
     {
+        "Id": "D3",
         "name": 'doctor 3',
-        "type": "doctor",
+        "category": "doctor",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
     },
     {
+        "Id": "D4",
         "name": 'doctor 4',
-        "type": "doctor",
+        "category": "doctor",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
     },
     {
+        "Id": "D5",
         "name": 'doctor 5',
-        "type": "doctor",
+        "category": "doctor",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
     },
     {
+        "Id": "P1",
         "name": 'pharma 1',
-        "type": "pharma",
+        "category": "pharma",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "pharma description 5"
     },
     {
+        "Id": "P2",
         "name": 'pharma 2',
-        "type": "pharma",
+        "category": "pharma",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "pharma description 5"
     },
     {
+        "Id": "P3",
         "name": 'pharma 3',
-        "type": "pharma",
+        "category": "pharma",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "pharma description 5"
     },
     {
+        "Id": "P4",
         "name": 'pharma 4',
-        "type": "pharma",
+        "category": "pharma",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "pharma description 5"
     },
     {
+        "Id": "P5",
         "name": 'pharma 5',
-        "type": "pharma",
+        "category": "pharma",
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",

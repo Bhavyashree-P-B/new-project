@@ -1,8 +1,10 @@
 export class listModel {
-    "name": string;
-    "type": string;
-    "imageUrl": string;
-    "reviewCount": string;
-    "ratingCount": string;
-    "description": string;
+    "Id":string;   
+    "name"?: string;
+    "category"?: string;
+    "imageUrl"?: string;
+    "reviewCount"?: string;
+    "ratingCount"?: string;
+    "description"?: string;
+    "address"?: string;
 }

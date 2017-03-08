@@ -1,8 +1,8 @@
                 <div class="row">
                     <div class="col-sm-4 col-lg-4 col-md-4" *ngFor="let list of typeList">
-                       <a routerLink="/details"> 
+                       <a routerLink="/details/{{list.Id}}"> 
                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="../../assets/images/IMG-20170201-WA0030.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$24.99</h4>
                                 <h4>{{list.name}}

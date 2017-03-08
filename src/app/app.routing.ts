@@ -4,7 +4,7 @@ import { DetailsPageComponent } from './component/details-page/details-page.comp
 
 const appRoutes: Routes = [
   { path: 'list/:listName', component: ListPageComponent },
-  { path: 'details', component: DetailsPageComponent }
+  { path: 'details/:Id', component: DetailsPageComponent }
 ];
 
 export const appRoutingProviders: any[] = [];

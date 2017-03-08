@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { listData } from '../../mock/itemList';
 import { JustAddsServiceService } from '../../service/just-adds-service.service';
 
 @Component({
