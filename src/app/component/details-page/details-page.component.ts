@@ -14,8 +14,6 @@ export class DetailsPageComponent implements OnInit {
     private JustAddsServiceService: JustAddsServiceService) { }
 
   Id: any;
-  lat: number = 13.3282036;
-  lng: number = 77.1107599;
   ngOnInit() {
 
     this.route.params.subscribe(params => {
