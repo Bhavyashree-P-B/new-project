@@ -5,3 +5,8 @@
 .detailpage p {
     text-align: justify;
 }
+
+.detailpage>.thumbnail>img {
+    height: 300px;
+    width: 100%;
+}
