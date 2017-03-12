@@ -9,6 +9,14 @@ $extraSmallScreen: 767px;
     float: right !important;
 }
 
+.item-list {
+    text-decoration: none;
+}
+
+.thumbnail>img {
+    height: 200px;
+}
+
 @media only screen and (max-width: 767px) {
     .product-detail .caption .price {
         float: left !important;
