@@ -12,15 +12,15 @@ import { ListPageComponent } from './component/list-page/list-page.component';
 import { DetailsPageComponent } from './component/details-page/details-page.component';
 
 import {JustAddsServiceService} from './service/just-adds-service.service';
-import { MapComponent } from './component/map/map.component';
+// import { MapComponent } from './component/map/map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ListPageComponent,
-    DetailsPageComponent,
-    MapComponent
+    DetailsPageComponent
+    // MapComponent
   ],
   imports: [
     BrowserModule,
