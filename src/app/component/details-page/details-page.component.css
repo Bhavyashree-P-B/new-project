@@ -39,6 +39,16 @@
     text-transform: capitalize;
 }
 
+.thumbnail .caption-full .detail-name>p {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 19px;
+}
+
+.thumbnail .caption-full .detail-name>p>i.fa {
+    width: 20px;
+}
+
 .sebm-google-map-container {
-    height: 300px;
+    height: 200px;
 }

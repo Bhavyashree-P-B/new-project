@@ -2,13 +2,13 @@ import { listModel } from '../model/listModel';
 export var listData: listModel[] = [
     {
         "Id": "H1",
-        "name": 'hotel 1',
+        "name": 'Hotel Sunitha',
         "category": "hotel",
         "imageUrl": "System",
         "reviewCount": "15",
-        "ratingCount": "4",
-        "description": "hotel description 1",
-        "address": "Tumkur",
+        "ratingCount": "4.0",
+        "description": "With Bootstrap 2, we added optional mobile friendly styles for key aspects of the framework. With Bootstrap 3, we've rewritten the project to be mobile friendly from the start. Instead of adding on optional mobile styles, they're baked right into the core. In fact, Bootstrap is mobile first. Mobile first styles can be found throughout the entire library instead of in separate files.",
+        "address": "12th Avenue Hotel, 614/615, 12th Main, HAL 2nd Stage",
         "latitude":13.3282036,
         "longitude":77.1107599
     },
