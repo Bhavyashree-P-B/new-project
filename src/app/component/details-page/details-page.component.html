@@ -40,11 +40,18 @@
             <!--<img class="img-responsive" src="../../assets/images/slide/1.jpg" alt="">-->
             <div class="caption-full">
                 <!--<h4 class="pull-right detail-price">$24.99</h4>-->
-                <h4 class="detail-name">{{Id.name}}</h4>
+                <h4 class="detail-name">{{Id.name}}
+                    <p class="pull-right"><i class="fa fa-tag"></i><span>{{Id.category}}</span></p>
+                </h4>
+
             </div>
             <div class="item-details">
                 <div class="row">
-                    <div class="col-md-4 col-md-push-8">
+                    <div class="col-md-12">
+                        <p>{{Id.description}}</p>
+                        <hr/>
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-xs-12">
                         <div class="address">
                             <p><i class="fa fa-map-marker"></i><span>{{Id.address}}</span></p>
                             <p><i class="fa fa-map-pin"></i><span>{{Id.category}}</span></p>
@@ -53,9 +60,14 @@
                             <p><i class="fa fa-envelope"></i><span>{{Id.category}}</span></p>
                         </div>
                     </div>
-                    <div class="col-md-8 col-md-pull-4">
-                        <p>{{Id.description}}</p>
-                        <p><i class="fa fa-tag"></i><span>{{Id.category}}</span></p>
+                    <div class="col-md-7 col-sm-6 col-xs-12">
+                        <sebm-google-map [latitude]="Id.latitude" [longitude]="Id.longitude" [zoom]=15>
+                            <sebm-google-map-marker [latitude]="Id.latitude" [longitude]="Id.longitude">
+                                <sebm-google-map-info-window>
+                                    <strong>{{Id.name}}</strong>
+                                </sebm-google-map-info-window>
+                            </sebm-google-map-marker>
+                        </sebm-google-map>
                     </div>
                 </div>
             </div>
@@ -100,11 +112,3 @@
         </div>
     </div>
 </div>
-
-<sebm-google-map [latitude]="Id.latitude" [longitude]="Id.longitude" [zoom]=15>
-    <sebm-google-map-marker [latitude]="Id.latitude" [longitude]="Id.longitude">
-        <sebm-google-map-info-window>
-            <strong>{{Id.name}}</strong>
-        </sebm-google-map-info-window>
-    </sebm-google-map-marker>
-</sebm-google-map>

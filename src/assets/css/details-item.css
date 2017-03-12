@@ -26,3 +26,7 @@
 footer {
     margin: 50px 0;
 }
+
+.carousel .item img {
+    width: 100%;
+}

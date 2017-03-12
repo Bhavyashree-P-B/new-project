@@ -1,0 +1,13 @@
+a.category-list {
+    text-decoration: none;
+}
+
+.category-list .caption {
+    height: auto;
+    text-align: center;
+    background-color: #DADADA;
+}
+
+.dash-category {
+    padding: 10px 0px;
+}
