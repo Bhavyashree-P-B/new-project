@@ -1,7 +1,6 @@
 <div class="row">
     <div class="col-md-12 detailpage">
         <div class="thumbnail">
-            <!--{{Id | json}}-->
             <div id="detail-page-carousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#detail-page-carousel" data-slide-to="0" class="active"></li>
@@ -103,5 +102,9 @@
 </div>
 
 <sebm-google-map [latitude]="Id.latitude" [longitude]="Id.longitude" [zoom]=15>
-  <sebm-google-map-marker [latitude]="Id.latitude" [longitude]="Id.longitude"></sebm-google-map-marker>
+    <sebm-google-map-marker [latitude]="Id.latitude" [longitude]="Id.longitude">
+        <sebm-google-map-info-window>
+            <strong>{{Id.name}}</strong>
+        </sebm-google-map-info-window>
+    </sebm-google-map-marker>
 </sebm-google-map>
