@@ -13,7 +13,6 @@ import { DetailsPageComponent } from './component/details-page/details-page.comp
 
 import {JustAddsServiceService} from './service/just-adds-service.service';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
-// import { MapComponent } from './component/map/map.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
     ListPageComponent,
     DetailsPageComponent,
     DashboardComponent
-    // MapComponent
   ],
   imports: [
     BrowserModule,
