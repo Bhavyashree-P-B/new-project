@@ -12,6 +12,7 @@ import { ListPageComponent } from './component/list-page/list-page.component';
 import { DetailsPageComponent } from './component/details-page/details-page.component';
 
 import {JustAddsServiceService} from './service/just-adds-service.service';
+import { DashboardComponent } from './component/dashboard/dashboard.component';
 // import { MapComponent } from './component/map/map.component';
 
 @NgModule({
@@ -19,7 +20,8 @@ import {JustAddsServiceService} from './service/just-adds-service.service';
     AppComponent,
     NavbarComponent,
     ListPageComponent,
-    DetailsPageComponent
+    DetailsPageComponent,
+    DashboardComponent
     // MapComponent
   ],
   imports: [
