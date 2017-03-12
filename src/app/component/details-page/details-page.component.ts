@@ -13,10 +13,12 @@ export class DetailsPageComponent implements OnInit {
     private route: ActivatedRoute,
     private JustAddsServiceService: JustAddsServiceService) { }
 
-Id:any;
+  Id: any;
+  lat: number = 13.3282036;
+  lng: number = 77.1107599;
   ngOnInit() {
 
-      this.route.params.subscribe(params => {
+    this.route.params.subscribe(params => {
       this.Id = params['Id'];
       this.JustAddsServiceService.getDetails(this.Id)
         .then(Id => this.Id = Id);
