@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
 /*body {
     padding-top: 70px; 
 }*/
@@ -20,11 +21,6 @@
 
 .thumbnail {
     padding: 0;
-}
-
-.thumbnail .caption-full {
-    padding: 9px;
-    color: #333;
 }
 
 footer {

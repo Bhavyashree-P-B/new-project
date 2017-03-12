@@ -7,7 +7,7 @@ export var listData: listModel[] = [
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
-        "description": "hotel description 1",
+        "description": "hotel description 1.",
         "address": "Tumkur"
     },
     {

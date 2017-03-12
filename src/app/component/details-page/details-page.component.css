@@ -10,3 +10,31 @@
     height: 300px;
     width: 100%;
 }
+
+.detailpage .well>hr:last-child {
+    display: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.item-details {
+    padding: 10px 15px;
+}
+
+.item-details p>i.fa {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.thumbnail .caption-full {
+    padding: 5px 15px;
+    color: #FFF;
+    background-color: #006064;
+    text-transform: capitalize;
+}
