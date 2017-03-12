@@ -8,7 +8,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "hotel description 1",
-        "address":"dfdfdf"
+        "address": "Tumkur"
     },
     {
         "Id": "H2",
@@ -17,7 +17,8 @@ export var listData: listModel[] = [
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
-        "description": "hotel description 2"
+        "description": "hotel description 2",
+        "address": "Tumkur"
     },
     {
         "Id": "H3",
@@ -26,7 +27,8 @@ export var listData: listModel[] = [
         "imageUrl": "System",
         "reviewCount": "15",
         "ratingCount": "4",
-        "description": "hotel description 3"
+        "description": "hotel description 3",
+        "address": "Tumkur"
     },
     {
         "Id": "H4",
@@ -36,6 +38,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "hotel description 4"
+        , "address": "Tumkur"
     },
     {
         "Id": "H5",
@@ -45,6 +48,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "hotel description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "C1",
@@ -54,6 +58,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "C2",
@@ -63,6 +68,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "C3",
@@ -72,6 +78,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "C4",
@@ -81,6 +88,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "C5",
@@ -90,6 +98,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "cinima description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "F1",
@@ -99,6 +108,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "F2",
@@ -108,6 +118,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "F3",
@@ -117,6 +128,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "F4",
@@ -126,6 +138,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "F5",
@@ -135,6 +148,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "flower description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "D1",
@@ -144,6 +158,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "D2",
@@ -153,6 +168,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "D3",
@@ -162,6 +178,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "D4",
@@ -171,6 +188,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "D5",
@@ -180,6 +198,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "doctor description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "P1",
@@ -189,6 +208,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "pharma description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "P2",
@@ -198,6 +218,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "pharma description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "P3",
@@ -207,6 +228,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "pharma description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "P4",
@@ -216,6 +238,7 @@ export var listData: listModel[] = [
         "reviewCount": "15",
         "ratingCount": "4",
         "description": "pharma description 5"
+        , "address": "Tumkur"
     },
     {
         "Id": "P5",
