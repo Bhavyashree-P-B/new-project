@@ -9,13 +9,14 @@ a.category-list {
 }
 
 .dash-category {
-    padding: 10px 0px;
+    padding: 10px 15px;
 }
 
 .header-bg {
     min-height: 300px;
     background-size: cover;
     background-repeat: none;
+    position: relative;
 }
 
 .header-bg .logo {
@@ -23,41 +24,64 @@ a.category-list {
     margin: 0px;
 }
 
+.header-bg .navbar-default,
+.header-bg .navbar-default .navbar-toggle,
+.header-bg .navbar-default .navbar-collapse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.header-bg .navbar-default .navbar-header .navbar-brand {
+    color: white;
+    font-style: italic;
+}
+
 .header-bg .nav>li>a,
 .header-bg .nav>li>a:hover {
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     background-color: transparent;
+}
+
+.header-bg .shader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.2);
+    top: 0px;
+    left: 0px;
 }
 
 .header-bg>.search {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    padding-top: 100px;
+    width: 70%;
+    padding: 80px 15px 10px 15px;
 }
 
 @media (min-width: 1200px) {
     .header-bg>.search {
-        width: 50%;
+        width: 70%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .header-bg>.search {
-        width: 50%;
+        width: 70%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .header-bg>.search {
-        width: 80%;
+        width: 100%;
+        padding-top: 50px
     }
 }
 
 @media (max-width: 767px) {
     .header-bg>.search {
-        width: 80%;
+        width: 100%;
+        padding-top: 50px
     }
 }
 
