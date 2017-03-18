@@ -1,7 +1,7 @@
 <section class="header-bg" [ngStyle]="{ 'background-image': 'url(../../assets/images/slide/2.jpg)'}">
     <div class="shader"></div>
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -14,7 +14,10 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Whyus</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login / Signup</a></li>
                 </ul>
             </div>
         </div>
@@ -37,6 +40,7 @@
     </div>
 </section>
 <div class="dash-category">
+    <div class="container">
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" *ngFor="let card of cardData">
             <a routerLink="{{card.routeLink}}" class="category-list">
@@ -48,5 +52,6 @@
                 </div>
             </a>
         </div>
+    </div>
     </div>
 </div>
