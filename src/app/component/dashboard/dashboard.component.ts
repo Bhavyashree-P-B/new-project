@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
+ declare var $:any;
 
 @Component({
   selector: 'app-dashboard',
@@ -6,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-
+   
+    ngAfterViewInit() {
+      $( document ).ready(function() {
+       $("#wrapper").toggleClass("toggled");
+      });
+    } 
   constructor() { }
 
   cardData = [
