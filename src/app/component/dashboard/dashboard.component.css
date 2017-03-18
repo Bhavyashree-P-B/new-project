@@ -57,6 +57,8 @@ a.category-list {
     margin-right: auto;
     width: 70%;
     padding: 100px 15px 10px 15px;
+    position: relative;
+    bottom: -150px;
 }
 
 @media (min-width: 1200px) {

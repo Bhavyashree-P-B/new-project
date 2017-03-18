@@ -41,17 +41,17 @@
 </section>
 <div class="dash-category">
     <div class="container">
-    <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" *ngFor="let card of cardData">
-            <a routerLink="{{card.routeLink}}" class="category-list">
-                <div class="thumbnail">
-                    <img src="{{card.imageUrl}}" alt="" class="img-resposive">
-                    <div class="caption">
-                        <h4>{{card.cardName}}</h4>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" *ngFor="let card of cardData">
+                <a routerLink="{{card.routeLink}}" class="category-list">
+                    <div class="thumbnail">
+                        <img src="{{card.imageUrl}}" alt="" class="img-resposive">
+                        <div class="caption">
+                            <h4>{{card.cardName}}</h4>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
         </div>
-    </div>
     </div>
 </div>
