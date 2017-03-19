@@ -100,3 +100,14 @@ a.category-list {
     top: 10px;
     left: 10px;
 }
+
+
+
+
+
+/*amith css changes..... kempa should review and update*/
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: none !important;
+    }
+}
