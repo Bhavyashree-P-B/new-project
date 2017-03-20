@@ -9,9 +9,11 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 export class DashboardComponent implements OnInit {
    
     ngAfterViewInit() {
-      // $( document ).ready(function() {
-      //  $("#wrapper").toggleClass("toggled");
-      // });
+      $( document ).ready(function() {
+       //$("#wrapper").toggleClass("toggled");
+       $("#wrapper").addClass("toggled");
+       //$("#page-content-wrapper").css("padding","0px");
+      });
     } 
   constructor() { }
 

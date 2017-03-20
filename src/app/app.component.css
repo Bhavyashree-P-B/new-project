@@ -17,3 +17,19 @@
     background-color: #FFF;
     margin: 6px 0px;
 }
+
+.docbar .docmenu {
+    display: table;
+    float: right;
+}
+
+.docbar .docmenu>li {
+    display: table-cell;
+    padding-right: 20px;
+}
+
+.docbar .docmenu>li>a,
+.docbar .docmenu>li>a:hover {
+    color: white;
+    text-decoration: none;
+}

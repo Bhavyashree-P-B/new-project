@@ -17,6 +17,7 @@ a.category-list {
     background-size: cover;
     background-repeat: none;
     position: relative;
+    top: -19px;
 }
 
 .header-bg .logo {
@@ -102,10 +103,8 @@ a.category-list {
 }
 
 
-
-
-
 /*amith css changes..... kempa should review and update*/
+
 @media(min-width:768px) {
     #wrapper {
         padding-left: none !important;
