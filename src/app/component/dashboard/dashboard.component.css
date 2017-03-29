@@ -8,9 +8,10 @@ a.category-list {
     background-color: #DADADA;
 }
 
-.dash-category {
+
+/*.dash-category {
     padding: 10px 15px;
-}
+}*/
 
 .header-bg {
     min-height: 400px;
@@ -116,3 +117,28 @@ a.category-list {
         padding-left: none !important;
     }
 }
+
+
+/*
+
+.contact-wrapper {}
+
+.contact-wrapper input,
+.contact-wrapper textarea {
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.contact-wrapper .header-bg .shader {
+    background-color: rgba(1, 1, 1, 0.7);
+}
+
+.contact-wrapper .header-bg .contact-caption {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+
+*/
