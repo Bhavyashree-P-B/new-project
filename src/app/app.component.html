@@ -1,29 +1,66 @@
-<div>
-<app-navbar *ngIf="this.router.url!='/'"> </app-navbar>
-</div>
-<div id="wrapper">
+<div class="wrapper">
     <div class="docbar">
-        <!--<a href="javascript:void(0)" class="btn btn-default" id="menu-toggle">
-            <div></div>
-            <div></div>
-            <div></div>
-        </a>-->
         <div class="container">
+            <i class="fa fa-bars sideClick" *ngIf="this.router.url!='/' && isMobile" (click)="openNav()"></i>
             <h3 style="margin: 0px;line-height: 50px;float: left"><a href="#" style="color: white; text-decoration: none;">PublishAdd</a></h3>
             <ul class="docmenu">
                 <li><a href="#">Whyus</a></li>
                 <li><a href="#">Advertise</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="#" (click)="signin()">Login</a></li>
                 <li><a href="#">Signup</a></li>
             </ul>
         </div>
     </div>
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-        <router-outlet></router-outlet>
+    <div id="page-content-wrapper" [ngClass]="this.router.url=='/'? 'dashboard-wrapper' : 'detail-wrapper'">
+        <div class="row">
+            <div [ngClass]="this.router.url!='/'? 'col-lg-2 col-md-2 hidden-sm hidden-xs remove-padding' : 'hidden'">
+                <app-navbar></app-navbar>
+            </div>
+            <div [ngClass]="this.router.url!='/'? 'col-lg-10 col-md-10 col-sm-12 col-xs-12 bg-white' : 'col-lg-12 col-md-12 col-sm-12 col-xs-12 remove-padding bg-white'">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
     </div>
-    <!-- /#page-content-wrapper -->
 
+    <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Sign In</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+          <input type="checkbox"> Remember me
+        </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Signin</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<!-- /#wrapper -->
+<app-navbar *ngIf="isMobile"></app-navbar>

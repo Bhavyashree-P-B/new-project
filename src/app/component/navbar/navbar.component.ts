@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var $:any;
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   constructor() { }
-
+  isMobile:any;
   menuData = [
     {
       "menuName": "Hotels",
@@ -41,6 +41,19 @@ export class NavbarComponent implements OnInit {
       "imageUrl": ""
     }];
   ngOnInit() {
+
+    this.isMobile= /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   }
 
+/* Close/hide the sidenav */
+public closeNav() {
+    $('.sidenav.mobile').hide('slow');
 }
+
+
+/* Open the sidenav */
+public openNav() {
+    $('.sidenav.mobile').show('slow');
+}
+}
+
