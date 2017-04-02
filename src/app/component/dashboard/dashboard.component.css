@@ -8,17 +8,15 @@ a.category-list {
     background-color: #DADADA;
 }
 
-
-/*.dash-category {
-    padding: 10px 15px;
-}*/
+.dash-category {
+    padding: 10px 0px;
+}
 
 .header-bg {
     min-height: 400px;
     background-size: cover;
     background-repeat: none;
     position: relative;
-    top: -19px;
 }
 
 .header-bg .logo {

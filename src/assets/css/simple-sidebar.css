@@ -5,11 +5,12 @@
  */
 
 body {
-    overflow-x: hidden;
+    background-color: #111;
 }
 
-
-/* Toggle Styles */
+.bg-white {
+    background-color: white !important;
+}
 
 #wrapper {
     padding-left: 0;
@@ -45,7 +46,11 @@ body {
 #page-content-wrapper {
     width: 100%;
     position: absolute;
-    padding: 15px;
+    padding: 0px 15px;
+}
+
+#page-content-wrapper.dashboard-wrapper {
+    padding: 0px 15px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -106,9 +111,6 @@ body {
 }
 
 @media(min-width:768px) {
-    #wrapper {
-        /*padding-left: 250px;*/
-    }
     #wrapper.toggled {
         padding-left: 0;
     }
@@ -117,10 +119,6 @@ body {
     }
     #wrapper.toggled #sidebar-wrapper {
         width: 250px;
-    }
-    #page-content-wrapper {
-        padding: 20px;
-        position: relative;
     }
     #wrapper.toggled #page-content-wrapper {
         position: relative;

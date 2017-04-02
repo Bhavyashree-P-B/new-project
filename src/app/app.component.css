@@ -33,3 +33,14 @@
     color: white;
     text-decoration: none;
 }
+
+.remove-padding {
+    padding: 0px;
+}
+
+.sideClick {
+    float: left;
+    font-size: 25px;
+    line-height: 50px;
+    margin-right: 10px;
+}
