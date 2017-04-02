@@ -19,9 +19,17 @@ export class ListPageComponent implements OnInit {
   ngOnInit() {
     this.route.params.subscribe(params => {
       this.typeName = params['listName'];
-      this.JustAddsServiceService.getList(this.typeName)
-        .then(typeList => this.typeList = typeList);
+
+
+this.JustAddsServiceService.getList(this.typeName).subscribe(response => {
+            this.typeList = response;
+           
+        });
+     
     });
+
+
+      
   }
 
 }

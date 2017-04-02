@@ -7,6 +7,6 @@ export class listModel {
     "ratingCount"?: string;
     "description"?: string;
     "address"?: string;
-    "latitude"?: number;
-    "longitude"?:number;
+    "latitude"?: string;
+    "longitude"?:string;
 }

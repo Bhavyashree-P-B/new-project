@@ -1,24 +1,39 @@
 import { Injectable } from '@angular/core';
 import { listModel } from '../model/listModel';
 import { listData } from '../mock/itemList';
+import { Http, Response, Headers } from '@angular/http';
+import { Observable } from 'rxjs/Rx';
+
 
 @Injectable()
 export class JustAddsServiceService {
 
-  constructor() { }
+  constructor(private http: Http) { }
   
   listDataFiltered: any = [];
   detailsData: any={};
 
-  getList(typeOfList: any): Promise<listModel[]> {
 
-    this.listDataFiltered = [];
-    for (var i = 0; i < listData.length; i++) {
-      if (listData[i].category == typeOfList) {
-        this.listDataFiltered.push(listData[i]);
-      }
+
+   private extractJSON(res: any) {
+        return res.json() || {};
     }
-    return Promise.resolve(this.listDataFiltered);
+
+     //if service throws error
+    private handleError(error: any) {
+        let errMsg = (error.message) ? error.message :
+            error.status ? `${error.status} - ${error.statusText}` : 'Server error';
+        console.error(errMsg); // log to console instead
+        return Observable.throw(errMsg);
+    }
+
+
+
+  getList(typeOfList: any): Observable<any> {
+
+return this.http.get('http://localhost:8080/find')
+            .map(this.extractJSON)
+            .catch(this.handleError);
   }
 
     getDetails(listId:any): Promise<listModel[]> {
