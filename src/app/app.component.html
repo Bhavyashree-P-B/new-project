@@ -7,7 +7,7 @@
                 <li><a href="#">Whyus</a></li>
                 <li><a href="#">Advertise</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#" (click)="signin()">Login</a></li>
+                <li><a href="javascript:void(0)" (click)="signin()">Login</a></li>
                 <li><a href="#">Signup</a></li>
             </ul>
         </div>
@@ -21,42 +21,96 @@
                 <router-outlet></router-outlet>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="sign-jumbotron">
+                    <p class="text-center">We deliver printouts at each and every Indian pincode.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a data-toggle="tab" class="text-muted" href="#register">New Register</a></li>
+                    <li><a data-toggle="tab" class="text-muted" href="#login">Login</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="register">
+                        <form role="form" action="" method="POST" name="form1">
+                            <div class="form-group">
+                                <label class="textfieldRequiredMsg" for="email">Name:</label>
+                                <input type="text" class="form-control" placeholder="Enter Your Full Name" name="name" autofocus="" autocomplete="off" />
+                            </div>
+                            <div class="form-group">
+                                <label class="textfieldRequiredMsg textfieldInvalidFormatMsg" for="pwd">Email:</label>
+                                <input type="email" class="form-control" placeholder="Enter Your Email" name="email" id="email" onblur="checkAvailability1()" autocomplete="off" />
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="textfieldRequiredMsg textfieldMinCharsMsg textfieldMaxCharsMsg" for="pwd">Password:</label>
+                                        <input type="password" id="password1" class="form-control" placeholder="Enter Your Password" name="password" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="textfieldRequiredMsg textfieldMinCharsMsg textfieldMaxCharsMsg" for="pwd">Confirm Password:</label>
+                                        <input type="password" id="password2" class="form-control" placeholder="Confirm Password" name="c_password" autocomplete="off" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="textfieldRequiredMsg textfieldMinCharsMsg textfieldMaxCharsMsg" for="phone">Mobile Number:</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="basic-addon1"><strong class="small" style="color:#34495E;">+91</strong></span>
+                                    <input type="number" class="form-control" placeholder="Mobile Number" name="mobile" aria-describedby="basic-addon1" autocomplete="off" />
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-success btn-lg full-width" id="signupsubmit" name="submit" onmouseover="checkAvailability1()" style="min-height:45px;max-height:45px;">Submit</button>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="login">
+                        <form role="form" action="" method="POST">
+                            <div class="form-group">
+                                <label for="login-email">Email: </label>
+                                <input type="email" class="form-control form-signin" placeholder="Enter Email" name="login-email" id="login-email" value="" required="" autofocus="">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" placeholder="Enter Password" id="login-pass" name="password" value="" />
+                            </div>
+                            <button type="button" class="btn full-width btn-lg btn-success" id="login-submit" name="login" onclick="check_u_and_p()"><span id="login-text">Login</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
     <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title text-center" id="myModalLabel">Sign In</h4>
+                    <h4 class="modal-title text-center" id="myModalLabel">PublishAdd</h4>
+                    <p class="text-center">Login to proceed</p>
                 </div>
                 <div class="modal-body">
                     <form class="form-horizontal">
                         <div class="form-group">
                             <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <div class="checkbox">
-                                    <label>
-          <input type="checkbox"> Remember me
-        </label>
-                                </div>
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Password">
                             </div>
                         </div>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Signin</button>
                 </div>
             </div>

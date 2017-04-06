@@ -44,3 +44,27 @@
     line-height: 50px;
     margin-right: 10px;
 }
+
+#signinModal .modal-content {
+    border-radius: 0px;
+}
+
+#signinModal .modal-header {
+    border-bottom: none;
+}
+
+#signinModal .modal-footer {
+    border-top: none;
+}
+
+#signinModal .modal-footer button.btn {
+    width: 100%;
+}
+
+
+/* Sign page style */
+
+.sign-jumbotron {
+    padding: 20px 10px;
+    background-color: #DADADA;
+}
