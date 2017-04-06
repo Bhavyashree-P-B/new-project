@@ -28,8 +28,23 @@
     padding-right: 20px;
 }
 
+.docbar .navbar-brand {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.docbar .nav>li>a:focus,
+.docbar .nav>li>a:hover {
+    background-color: #d44568;
+}
+
 .docbar .docmenu>li>a,
-.docbar .docmenu>li>a:hover {
+.docbar .docmenu>li>a:hover,
+.docbar .nav.navbar-nav>li>a,
+.docbar .nav.navbar-nav>li>a:hover {
     color: white;
     text-decoration: none;
 }
@@ -64,7 +79,67 @@
 
 /* Sign page style */
 
-.sign-jumbotron {
-    padding: 20px 10px;
-    background-color: #DADADA;
+.signinModal-container {
+    background-color: rgba(204, 204, 204, 0.43);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.signinModal-container .form-group {
+    position: relative;
+}
+
+.signinModal-container .form-group .label {
+    color: #868686;
+    font-size: 14px;
+}
+
+.signinModal-container .form-group input.form-control {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 34px;
+}
+
+.signinModal-container .form-group input+.fa {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 16px;
+}
+
+#signinModal .modal-body {
+    padding-top: 0px;
+}
+
+#signinModal .modal-body>hr {
+    margin-top: 0px !important;
+}
+
+.signinModal-container .nav-tabs {
+    margin-bottom: 10px;
+}
+
+.signinModal-container .nav-tabs>li>a {
+    font-weight: bolder;
+    color: #868686;
+}
+
+.signinModal-container .nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px;
+    border-bottom-color: #f15077;
+}
+
+.docbar .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.docbar .container-fluid>.navbar-collapse,
+.docbar .container-fluid>.navbar-header,
+.docbar .container>.navbar-collapse,
+.docbar .container>.navbar-header {
+    background-color: #f15077;
 }

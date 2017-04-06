@@ -13,8 +13,8 @@ a.category-list {
 }
 
 .header-bg {
-    min-height: 400px;
-    background-size: cover;
+    min-height: 370px;
+    background-size: contain;
     background-repeat: none;
     position: relative;
 }
