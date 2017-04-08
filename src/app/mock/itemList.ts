@@ -9,8 +9,8 @@ export var listData: listModel[] = [
         "ratingCount": "4.0",
         "description": "All verieties of food are available with great taste. Come and enjoy your feast.",
         "address": "12th Avenue Hotel, 614/615, 12th Main, HAL 2nd Stage",
-        "latitude":"13.3282036",
-        "longitude":"77.1107599"
+        "latitude":13.3282036,
+        "longitude":77.1107599
     },
     {
         "Id": "H2",
@@ -21,8 +21,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "hotel description 2",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "H3",
@@ -33,8 +33,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "hotel description 3",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "H4",
@@ -45,8 +45,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "hotel description 4",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "H5",
@@ -57,8 +57,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "hotel description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "C1",
@@ -69,8 +69,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "cinima description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "C2",
@@ -81,8 +81,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "cinima description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "C3",
@@ -93,8 +93,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "cinima description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "C4",
@@ -105,8 +105,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "cinima description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "C5",
@@ -117,8 +117,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "cinima description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "F1",
@@ -129,8 +129,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "flower description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "F2",
@@ -141,8 +141,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "flower description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "F3",
@@ -153,8 +153,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "flower description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "F4",
@@ -165,8 +165,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "flower description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "F5",
@@ -177,8 +177,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "flower description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "D1",
@@ -189,8 +189,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "doctor description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "D2",
@@ -201,8 +201,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "doctor description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "D3",
@@ -213,8 +213,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "doctor description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "D4",
@@ -225,8 +225,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "doctor description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "D5",
@@ -237,8 +237,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "doctor description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "P1",
@@ -249,8 +249,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "pharma description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "P2",
@@ -261,8 +261,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "pharma description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "P3",
@@ -273,8 +273,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "pharma description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "P4",
@@ -285,8 +285,8 @@ export var listData: listModel[] = [
         "ratingCount": "4",
         "description": "pharma description 5",
         "address": "Tumkur",
-        "latitude": "13.3282036",
-        "longitude": "77.1107599"
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "P5",
