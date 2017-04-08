@@ -27,14 +27,23 @@ export class JustAddsServiceService {
         return Observable.throw(errMsg);
     }
 
+getList(typeOfList: any): Promise<listModel[]> {
 
-
-  getList(typeOfList: any): Observable<any> {
-
-return this.http.get('http://localhost:8080/find')
-            .map(this.extractJSON)
-            .catch(this.handleError);
+    this.listDataFiltered = [];
+    for (var i = 0; i < listData.length; i++) {
+      if (listData[i].category == typeOfList) {
+        this.listDataFiltered.push(listData[i]);
+      }
+    }
+    return Promise.resolve(this.listDataFiltered);
   }
+
+//   getList(typeOfList: any): Observable<any> {
+
+// return this.http.get('http://localhost:8080/find')
+//             .map(this.extractJSON)
+//             .catch(this.handleError);
+//   }
 
     getDetails(listId:any): Promise<listModel[]> {
 
