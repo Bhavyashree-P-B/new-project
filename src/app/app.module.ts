@@ -11,8 +11,11 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { ListPageComponent } from './component/list-page/list-page.component';
 import { DetailsPageComponent } from './component/details-page/details-page.component';
 
-import {JustAddsServiceService} from './service/just-adds-service.service';
+import { JustAddsServiceService } from './service/just-adds-service.service';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { ContactUsComponent } from './component/contact-us/contact-us.component';
+import { AdvertiseComponent } from './component/advertise/advertise.component';
+import { WhyUsComponent } from './component/why-us/why-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
     NavbarComponent,
     ListPageComponent,
     DetailsPageComponent,
-    DashboardComponent
+    DashboardComponent,
+    ContactUsComponent,
+    AdvertiseComponent,
+    WhyUsComponent
   ],
   imports: [
     BrowserModule,
@@ -31,8 +37,8 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
       apiKey: 'AIzaSyD9k2tLaD1SQu9d5h4J0G9263Y9nrTmV1w'
     })
   ],
-  providers: [appRoutingProviders,JustAddsServiceService],
+  providers: [appRoutingProviders, JustAddsServiceService],
   bootstrap: [AppComponent],
-    schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
