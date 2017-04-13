@@ -9,8 +9,8 @@ export var listData: listModel[] = [
         "ratingCount": "4.0",
         "description": "All verieties of food are available with great taste. Come and enjoy your feast.",
         "address": "12th Avenue Hotel, 614/615, 12th Main, HAL 2nd Stage",
-        "latitude":13.3282036,
-        "longitude":77.1107599
+        "latitude": 13.3282036,
+        "longitude": 77.1107599
     },
     {
         "Id": "H2",

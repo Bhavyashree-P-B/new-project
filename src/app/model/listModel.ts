@@ -1,5 +1,5 @@
 export class listModel {
-    "Id":string;   
+    "Id": string;
     "name"?: string;
     "category"?: string;
     "imageUrl"?: string;
@@ -8,5 +8,5 @@ export class listModel {
     "description"?: string;
     "address"?: string;
     "latitude"?: number;
-    "longitude"?:number;
+    "longitude"?: number;
 }
