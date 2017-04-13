@@ -52,7 +52,8 @@ a.category-list {
     left: 0px;
 }
 
-.header-bg>.search {
+.header-bg>.search,
+.carousel>.search {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
