@@ -1,3 +1,32 @@
-<p>
-  contact-us works!
-</p>
+<div class="contact-wrapper">
+    <section class="header-bg" [ngStyle]="{ 'background-image': 'url(../../assets/images/tumkurmap.png)'}">
+        <div class="shader"></div>
+        <div class="contact-caption">
+            <h1 class="text-center">Let’s make something awesome together.</h1>
+            <p class="text-center">Drop us a line, or give us a heads up if you’re interested in visiting us.</p>
+        </div>
+    </section>
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <h4 class="text-center">Get in touch</h4>
+            <p class="text-center">Let’s talk about your project</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-4">
+            <input class="form-control" type="text" name="" placeholder="Name" />
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <input class="form-control" type="number" name="" placeholder="Your phone number" />
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <input class="form-control" type="email" name="" placeholder="Email Id" />
+        </div>
+        <div class="col-lg-12 col-md-12">
+            <textarea class="form-control" placeholder="Message"></textarea>
+        </div>
+        <div class="col-lg-12 col-md-12 text-right">
+            <button type="button" class="btn btn-warning">Submit</button>
+        </div>
+    </div>
+</div>
