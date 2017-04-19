@@ -5,6 +5,7 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { ContactUsComponent } from './component/contact-us/contact-us.component';
 import { WhyUsComponent } from './component/why-us/why-us.component';
 import { AdvertiseComponent } from './component/advertise/advertise.component';
+import {AdminComponent} from './component/admin/admin.component';
 
 const appRoutes: Routes = [
   { path: '', component: DashboardComponent },
@@ -12,7 +13,8 @@ const appRoutes: Routes = [
   { path: 'contactUs', component: ContactUsComponent },
   { path: 'advertise', component: AdvertiseComponent },
   { path: 'whyUs', component: WhyUsComponent },
-  { path: 'details/:Id', component: DetailsPageComponent }
+  { path: 'details/:Id', component: DetailsPageComponent },
+  { path: 'admin', component: AdminComponent }
 ];
 
 export const appRoutingProviders: any[] = [];

@@ -16,6 +16,7 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { ContactUsComponent } from './component/contact-us/contact-us.component';
 import { AdvertiseComponent } from './component/advertise/advertise.component';
 import { WhyUsComponent } from './component/why-us/why-us.component';
+import { AdminComponent } from './component/admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { WhyUsComponent } from './component/why-us/why-us.component';
     DashboardComponent,
     ContactUsComponent,
     AdvertiseComponent,
-    WhyUsComponent
+    WhyUsComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

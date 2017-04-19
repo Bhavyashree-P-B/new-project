@@ -12,8 +12,7 @@ export class JustAddsServiceService {
 
   listDataFiltered: any = [];
   detailsData: any = {};
-
-
+  findUrl = 'http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/find'
 
   private extractJSON(res: any) {
     return res.json() || {};
@@ -27,23 +26,12 @@ export class JustAddsServiceService {
     return Observable.throw(errMsg);
   }
 
-  getList(typeOfList: any): Promise<listModel[]> {
+  getList(typeOfList: any): Observable<any> {
 
-    this.listDataFiltered = [];
-    for (var i = 0; i < listData.length; i++) {
-      if (listData[i].category == typeOfList) {
-        this.listDataFiltered.push(listData[i]);
-      }
-    }
-    return Promise.resolve(this.listDataFiltered);
+    return this.http.get(this.findUrl)
+      .map(this.extractJSON)
+      .catch(this.handleError);
   }
-
-  //   getList(typeOfList: any): Observable<any> {
-
-  // return this.http.get('http://localhost:8080/find')
-  //             .map(this.extractJSON)
-  //             .catch(this.handleError);
-  //   }
 
   getDetails(listId: any): Promise<listModel[]> {
 
