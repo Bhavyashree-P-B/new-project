@@ -12,10 +12,10 @@ export class JustAddsServiceService {
 
   listDataFiltered: any = [];
   detailsData: any = {};
-  // findUrl = 'http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/find';
-findUrl = 'http://localhost:8080/find';
-saveUrl = 'http://localhost:8080/save';
-getDetailsUrl='http://localhost:8080/getDetails';
+  findUrl = 'http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/find';
+// findUrl = 'http://localhost:8080/find';
+saveUrl = 'http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/save';
+getDetailsUrl='http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/getDetails';
   private extractJSON(res: any) {
     return res.json() || {};
   }
