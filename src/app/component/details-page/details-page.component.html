@@ -40,31 +40,31 @@
             <!--<img class="img-responsive" src="../../assets/images/slide/1.jpg" alt="">-->
             <div class="caption-full">
                 <!--<h4 class="pull-right detail-price">$24.99</h4>-->
-                <h4 class="detail-name">{{Id.name}}
-                    <p class="pull-right"><i class="fa fa-tag"></i><span>{{Id.category}}</span></p>
+                <h4 class="detail-name">{{name}}
+                    <p class="pull-right"><i class="fa fa-tag"></i><span>{{category}}</span></p>
                 </h4>
 
             </div>
             <div class="item-details">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>{{Id.description}}</p>
+                        <p>{{description}}</p>
                         <hr/>
                     </div>
                     <div class="col-md-5 col-sm-6 col-xs-12">
                         <div class="address">
-                            <p><i class="fa fa-map-marker"></i><span>{{Id.address}}</span></p>
-                            <p><i class="fa fa-map-pin"></i><span>{{Id.category}}</span></p>
-                            <p><i class="fa fa-globe"></i><span>{{Id.category}}</span></p>
-                            <p><i class="fa fa-phone"></i><span>{{Id.category}}</span></p>
-                            <p><i class="fa fa-envelope"></i><span>{{Id.category}}</span></p>
+                            <p><i class="fa fa-map-marker"></i><span>{{address}}</span></p>
+                            <p><i class="fa fa-map-pin"></i><span>{{category}}</span></p>
+                            <p><i class="fa fa-globe"></i><span>{{category}}</span></p>
+                            <p><i class="fa fa-phone"></i><span>{{category}}</span></p>
+                            <p><i class="fa fa-envelope"></i><span>{{category}}</span></p>
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-6 col-xs-12">
-                        <sebm-google-map [latitude]="Id.latitude" [longitude]="Id.longitude" [zoom]=15>
-                            <sebm-google-map-marker [latitude]="Id.latitude" [longitude]="Id.longitude">
+                        <sebm-google-map [latitude]=77.1107599 [longitude]=13.3282036 [zoom]=15>
+                            <sebm-google-map-marker [latitude]=77.1107599 [longitude]=13.3282036>
                                 <sebm-google-map-info-window>
-                                    <strong>{{Id.name}}</strong>
+                                    <strong>{{name}}</strong>
                                 </sebm-google-map-info-window>
                             </sebm-google-map-marker>
                         </sebm-google-map>
@@ -72,13 +72,13 @@
                 </div>
             </div>
             <div class="ratings">
-                <p class="pull-right">{{Id.reviewCount}} reviews</p>
+                <p class="pull-right">4 reviews</p>
                 <p>
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star-empty"></span> {{Id.ratingCount}} stars
+                    <span class="glyphicon glyphicon-star-empty"></span>5 stars
                 </p>
             </div>
         </div>
