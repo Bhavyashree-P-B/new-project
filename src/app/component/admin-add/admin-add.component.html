@@ -1,0 +1,31 @@
+<div style="width:50%;margin:3%;">
+  <form #formCtrl="ngForm">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" required [(ngModel)]="name" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="description">Description</label>
+    <input type="text" class="form-control" id="description" [(ngModel)]="description" name="description" required>
+  </div>
+
+
+  <div class="form-group">
+    <label for="address">Address</label>
+    <input type="text" class="form-control" id="address" [(ngModel)]="address" name="address" required>
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="cate">category</label>
+    <select class="form-control" id="cate" required [(ngModel)]="cate" name="cate" required>
+    <option *ngFor="let cat of powers" [value]="cat">{{cat}}</option>
+  </select>
+  </div>
+  <!--|| description.length==0 ||sddress.length==0-->
+  <button type="submit" class="btn btn-primary" (click)="onSubmit()" [disabled]="!formCtrl.form.valid">Submit</button>
+  <button type="button" class="btn btn-info" (click)="openlistProducts()">List Products</button>
+  </form>
+</div>

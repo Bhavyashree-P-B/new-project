@@ -1,0 +1,20 @@
+List Of Products 
+<button type="button" class="btn btn-primary btn-lg" (click)="openAddProduct()">Add Product</button>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Category</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of typeList; let i = index">
+      <th scope="row">{{i+1}}</th>
+      <td>{{item.name}}</td>
+      <td>{{item.category}}</td>
+      <td><i class="fa fa-trash fa-1x" (click)="deleteProduct(item._id)" data-toggle="tooltip" style="cursor:pointer;" title="Caution!!!This will delete without Confirmation"></i></td>
+    </tr>
+  </tbody>
+</table>

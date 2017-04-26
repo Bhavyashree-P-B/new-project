@@ -20,7 +20,7 @@ export class ListPageComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.typeName = params['listName'];
       this.typeList = [];
-      this.JustAddsServiceService.getList(this.typeName).subscribe(response => {
+      this.JustAddsServiceService.getList().subscribe(response => {
         for (var i = 0; i < response.length; i++) {
           if (response[i].category == this.typeName)
             this.typeList.push(response[i]);

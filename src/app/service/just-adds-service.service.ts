@@ -13,9 +13,10 @@ export class JustAddsServiceService {
   listDataFiltered: any = [];
   detailsData: any = {};
   findUrl = 'http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/find';
-// findUrl = 'http://localhost:8080/find';
+// deleteUrl = 'http://localhost:8080/deleteProduct';
 saveUrl = 'http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/save';
 getDetailsUrl='http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/getDetails';
+deleteUrl='http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/deleteProduct'
   private extractJSON(res: any) {
     return res.json() || {};
   }
@@ -28,12 +29,20 @@ getDetailsUrl='http://ec2-34-201-14-1.compute-1.amazonaws.com:8080/getDetails';
     return Observable.throw(errMsg);
   }
 
-  getList(typeOfList: any): Observable<any> {
+  getList(): Observable<any> {
 
     return this.http.get(this.findUrl)
       .map(this.extractJSON)
       .catch(this.handleError);
   }
+
+deleteProduct(id): Observable<any> {
+
+    return this.http.delete(this.deleteUrl+'?id='+id)
+      .map(this.extractJSON)
+      .catch(this.handleError);
+  }
+  
 
 
 
